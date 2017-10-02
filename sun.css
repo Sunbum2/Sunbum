@@ -64,3 +64,69 @@ p {
 	border-style: double;
 	border-width: 10px;
 }
+@media screen and (min-width: 736px){
+	body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	display: block;
+	background-image: url(images/wood.jpg);
+	background-color: red;
+}
+
+.box1 {
+	height: 30vh;
+	width: 25vw;
+	display: flex;
+	margin-right: 100px;
+	}
+.box2 {
+	
+	height: 30vh;
+	width: 100vw;
+
+	margin-right: 100px;
+	display: block;
+	}
+.box3 {
+	height: 100vh;
+	width: 15vw;
+	display: flex;
+}
+	
+.i1 {
+	width: 50vw;
+	height: 50vh;
+	display:block;
+	content: url(images/ikiru2.png);
+
+}
+.sun {
+	content: url(images/Happy-Sun.png);
+	width: 20vw;
+	height:25vh;
+	display: block;
+}
+.tree {
+	content: url(images/tree.png);
+	height: 50vh;
+}
+.center-horizontal {
+	display: flex;
+	align-items: center;	
+}
+.center-vertical {
+	display: flex;
+	justify-content: center;
+	height: inherit;
+}
+.waves {
+	content: url(images/sunset.gif);
+	height: 40vh;
+	width: 35vw;
+	display: block;
+
+	
+}
+}
