@@ -87,13 +87,12 @@ p {
 .box1 {
 	height: 50vh;
 	width: 50vw;
-	display: flex;
-	margin-right: 100px;
+	display: inline-block;
 	}
 .box3 {
 	height: 50vh;
 	width: 50vw;
-	display: flex;
+	display: inline-block;
 }
 .i1 {
 	width: 50vw;
