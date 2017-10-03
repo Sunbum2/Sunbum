@@ -8,7 +8,11 @@
 	display: block;
 	background-image: url(images/wood.jpg);
 }
-
+.box1 {
+	display: hidden;
+	width: 0vw;
+	height: 0vh;
+}
 
 .box2 {
 	
