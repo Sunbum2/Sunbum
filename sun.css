@@ -5,7 +5,7 @@
 	padding: 0;
 	width: 100vw;
 	height: 100vh;
-	display: block;
+	display: flex;
 	background-image: url(images/wood.jpg);
 }
 .box1 {
@@ -65,11 +65,13 @@ body {
 	background-image: url(images/wood2.jpg);
 }
 p {
-	text-align:center;
-	font-size: 100px;
+	text-align: center;
+	font-size: 30px;
 	font-family: Tw Cen MT;
-	font-color: white;
+	font-color
 }
+	
+	
 .box1 {
 	height: 100vh;
 	width: 25vw;
@@ -100,7 +102,6 @@ p {
 	width: 30vw;
 	height:25vh;
 	display: block;
-}
 .tree {
 	content: url(images/palmtree.png);
 	height: 75vh;
