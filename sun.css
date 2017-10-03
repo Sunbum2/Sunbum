@@ -8,12 +8,6 @@
 	display: flex;
 	background-image: url(images/wood.jpg);
 }
-.box1 {
-	display: block;
-	width: 0vw;
-	height: 0vh;
-}
-
 .box2 {
 	float: top;
 	height: 50vh;
@@ -21,10 +15,24 @@
 	display: block;
 	}
 
+.box1 {
+	display: block;
+	width: 0vw;
+	height: 0vh;
+}
+
 .box3 {
 	height: 50vh;
 	width: 50vw;
 	display: block;
+}
+.waves {
+	content: url(images/sunset.gif);
+	height: 40vh;
+	width: 35vw;
+	display: block;
+
+	
 }
 .sun {
 	content: url(images/Happy-Sun.png);
@@ -44,14 +52,6 @@
 	display: flex;
 	justify-content: center;
 	height: inherit;
-}
-.waves {
-	content: url(images/waves.gif);
-	height: 40vh;
-	width: 35vw;
-	display: block;
-
-	
 }
 }
 @media screen and (min-width: 1000px) {
@@ -93,7 +93,7 @@ p {
 	display: block;
 }
 .waves {
-	content: url(images/sunset.gif);
+	content: url(images/waves.gif);
 	height: 40vh;
 	width: 35vw;
 	display: block;
