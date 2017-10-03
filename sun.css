@@ -83,18 +83,18 @@ p {
 	margin-right: 100px;
 	display: block;
 	}
-.box3 {
-	height: 50vh;
-	width: 50vw;
-	display: flex;
-}
+
 .box1 {
 	height: 50vh;
 	width: 50vw;
 	display: flex;
 	margin-right: 100px;
 	}
-	
+.box3 {
+	height: 50vh;
+	width: 50vw;
+	display: flex;
+}
 .i1 {
 	width: 50vw;
 	height: 50vh;
