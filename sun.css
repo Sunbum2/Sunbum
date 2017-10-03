@@ -72,28 +72,28 @@ p {
 	height: 100vh;
 	display: block;
 	background-image: url(images/wood.jpg);
-	background-color: red;
 }
 
-.box1 {
-	height: 30vh;
-	width: 25vw;
-	display: flex;
-	margin-right: 100px;
-	}
+
 .box2 {
 	
-	height: 30vh;
+	height: 50vh;
 	width: 100vw;
 
 	margin-right: 100px;
 	display: block;
 	}
 .box3 {
-	height: 100vh;
-	width: 15vw;
+	height: 50vh;
+	width: 50vw;
 	display: flex;
 }
+.box1 {
+	height: 50vh;
+	width: 50vw;
+	display: flex;
+	margin-right: 100px;
+	}
 	
 .i1 {
 	width: 50vw;
