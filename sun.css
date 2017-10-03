@@ -26,7 +26,12 @@
 	width: 50vw;
 	display: block;
 }
-
+.sun {
+	content: url(images/Happy-Sun.png);
+	width: 30vw;
+	height:25vh;
+	display: block;
+}
 .tree {
 	content: url(images/palmtree.png);
 	height: 50vh;
@@ -90,11 +95,6 @@ p {
 	border-style: double;
 	border-width: 10px;
 }
-.sun {
-	content: url(images/Happy-Sun.png);
-	width: 30vw;
-	height:25vh;
-	display: block;
 .tree {
 	content: url(images/palmtree.png);
 	height: 75vh;
