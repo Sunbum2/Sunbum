@@ -64,7 +64,7 @@ p {
 	border-style: double;
 	border-width: 10px;
 }
-@media screen and (min-width: 736px){
+@media screen and (min-width: 414px){
 	body {
 	margin: 0;
 	padding: 0;
