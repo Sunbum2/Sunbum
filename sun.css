@@ -109,4 +109,10 @@ p {
 	justify-content: center;
 	height: inherit;
 }
+	.waves {
+	content: url(images/sunset.gif);
+	height: 40vh;
+	width: 35vw;
+	display: block;
+}
 }
