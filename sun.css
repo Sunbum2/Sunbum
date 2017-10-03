@@ -15,11 +15,9 @@
 }
 
 .box2 {
-	
+	float: top;
 	height: 50vh;
 	width: 100vw;
-
-	margin-right: 100px;
 	display: block;
 	}
 
