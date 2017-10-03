@@ -35,7 +35,7 @@
 }
 .tree {
 	content: url(images/palmtree.png);
-	height: 25vh;
+	height: 50vh;
 }
 .center-horizontal {
 	display: flex;
@@ -66,8 +66,9 @@ body {
 }
 p {
 	text-align:center;
-	font-size: 30px;
+	font-size: 100px;
 	font-family: Tw Cen MT;
+	font-color: white;
 }
 .box1 {
 	height: 100vh;
