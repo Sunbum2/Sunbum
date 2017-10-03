@@ -1,3 +1,70 @@
+
+@media screen and (min-width: 414px){
+	body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	display: block;
+	background-image: url(images/wood.jpg);
+}
+
+
+.box2 {
+	
+	height: 50vh;
+	width: 100vw;
+
+	margin-right: 100px;
+	display: block;
+	}
+
+.box1 {
+	height: 50vh;
+	width: 50vw;
+	display: inline-block;
+	}
+.box3 {
+	height: 50vh;
+	width: 50vw;
+	display: inline-block;
+}
+.i1 {
+	width: 50vw;
+	height: 50vh;
+	display:block;
+	content: url(images/ikiru2.png);
+
+}
+.sun {
+	content: url(images/Happy-Sun.png);
+	width: 20vw;
+	height:25vh;
+	display: block;
+}
+.tree {
+	content: url(images/tree.png);
+	height: 50vh;
+}
+.center-horizontal {
+	display: flex;
+	align-items: center;	
+}
+.center-vertical {
+	display: flex;
+	justify-content: center;
+	height: inherit;
+}
+.waves {
+	content: url(images/sunset.gif);
+	height: 40vh;
+	width: 35vw;
+	display: block;
+
+	
+}
+}
+@media screen and (min-width: 1000px) {
 body {
 	margin: 0;
 	padding: 0;
@@ -63,69 +130,5 @@ p {
 	display: block;
 	border-style: double;
 	border-width: 10px;
-}
-@media screen and (min-width: 414px){
-	body {
-	margin: 0;
-	padding: 0;
-	width: 100vw;
-	height: 100vh;
-	display: block;
-	background-image: url(images/wood.jpg);
-}
-
-
-.box2 {
-	
-	height: 50vh;
-	width: 100vw;
-
-	margin-right: 100px;
-	display: block;
-	}
-
-.box1 {
-	height: 50vh;
-	width: 50vw;
-	display: inline-block;
-	}
-.box3 {
-	height: 50vh;
-	width: 50vw;
-	display: inline-block;
-}
-.i1 {
-	width: 50vw;
-	height: 50vh;
-	display:block;
-	content: url(images/ikiru2.png);
-
-}
-.sun {
-	content: url(images/Happy-Sun.png);
-	width: 20vw;
-	height:25vh;
-	display: block;
-}
-.tree {
-	content: url(images/tree.png);
-	height: 50vh;
-}
-.center-horizontal {
-	display: flex;
-	align-items: center;	
-}
-.center-vertical {
-	display: flex;
-	justify-content: center;
-	height: inherit;
-}
-.waves {
-	content: url(images/sunset.gif);
-	height: 40vh;
-	width: 35vw;
-	display: block;
-
-	
 }
 }
