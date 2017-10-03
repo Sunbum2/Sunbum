@@ -109,12 +109,4 @@ p {
 	justify-content: center;
 	height: inherit;
 }
-.waves {
-	content: url(images/waves.gif);
-	height: 50vh;
-	width: 35vw;
-	display: block;
-	border-style: double;
-	border-width: 10px;
-}
 }
