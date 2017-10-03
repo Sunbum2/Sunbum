@@ -9,7 +9,7 @@
 	background-image: url(images/wood.jpg);
 }
 .box1 {
-	display: hidden;
+	display: block;
 	width: 0vw;
 	height: 0vh;
 }
@@ -18,7 +18,7 @@
 	float: top;
 	height: 50vh;
 	width: 100vw;
-	display: flex;
+	display: block;
 	}
 
 .box3 {
@@ -29,12 +29,12 @@
 
 .sun {
 	content: url(images/Happy-Sun.png);
-	width: 20vw;
+	width: 30vw;
 	height:25vh;
 	display: block;
 }
 .tree {
-	content: url(images/tree.png);
+	content: url(images/palmtree.png);
 	height: 50vh;
 }
 .center-horizontal {
