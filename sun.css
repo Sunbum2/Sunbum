@@ -35,7 +35,7 @@
 }
 .tree {
 	content: url(images/palmtree.png);
-	height: 50vh;
+	height: 25vh;
 }
 .center-horizontal {
 	display: flex;
