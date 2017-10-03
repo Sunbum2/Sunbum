@@ -1,0 +1,108 @@
+@media screen and (min-width: 414px){
+body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	background-image: url(images/wood.jpg);
+}
+.box1 {
+	display: block;
+	width: 0vw;
+	height: 0vh;
+}
+.box2 {
+	float: top;
+	height: 50vh;
+	width: 100vw;
+	display: block;
+}
+.box3 {
+	height: 50vh;
+	width: 50vw;
+	display: block;
+}
+.sun {
+	content: url(images/Happy-Sun.png);
+	width: 30vw;
+	height:25vh;
+	display: block;
+}
+.tree {
+	content: url(images/palmtree.png);
+	height: 50vh;
+}
+.center-horizontal {
+	display: flex;
+	align-items: center;	
+}
+.center-vertical {
+	display: flex;
+	justify-content: center;
+	height: inherit;
+}
+.waves {
+	content: url(images/sunset.gif);
+	height: 40vh;
+	width: 35vw;
+	display: block;
+}
+}
+@media screen and (min-width: 1000px) {
+body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	background-image: url(images/wood2.jpg);
+}
+p {
+	text-align: center;
+	font-size: 30px;
+	font-family: Tw Cen MT;
+}	
+.box1 {
+	height: 100vh;
+	width: 25vw;
+	display: flex;
+	}
+.box2 {
+	height: 100vh;
+	width: 50vw;
+	display: block;
+}
+.box3 {
+	height: 100vh;
+	width: 15vw;
+	display: flex;
+}
+.waves {
+	content: url(images/waves.gif);
+	height: 40vh;
+	width: 35vw;
+	display: block;
+}	
+.i1 {
+	width: 100vw;
+	height: 75vh;
+	display:block;
+	content: url(images/ikiru2.png);
+	border-style: double;
+	border-width: 10px;
+}
+.tree {
+	content: url(images/palmtree.png);
+	height: 75vh;
+}
+.center-horizontal {
+	display: flex;
+	align-items: center;	
+}
+.center-vertical {
+	display: flex;
+	justify-content: center;
+	height: inherit;
+}
+}
