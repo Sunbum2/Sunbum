@@ -86,6 +86,12 @@ p {
 	width: 15vw;
 	display: flex;
 }
+	.sun {
+	content: url(images/Happy-Sun.png);
+	width: 30vw;
+	height:25vh;
+	display: block;
+}
 	
 .i1 {
 	width: 100vw;
