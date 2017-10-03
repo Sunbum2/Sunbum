@@ -68,28 +68,34 @@ p {
 	font-size: 30px;
 	font-family: Tw Cen MT;
 }
-	
-	
-.box1 {
-	height: 100vh;
-	width: 25vw;
-	display: flex;
-	}
 .box2 {
 	
 	height: 100vh;
 	width: 50vw;
 	display: block;
 	}
+	
+.box1 {
+	height: 100vh;
+	width: 25vw;
+	display: flex;
+	}
+
 .box3 {
 	height: 100vh;
 	width: 15vw;
 	display: flex;
 }
-	.sun {
+.sun {
 	content: url(images/Happy-Sun.png);
 	width: 30vw;
 	height:25vh;
+	display: block;
+}
+.waves {
+	content: url(images/sunset.gif);
+	height: 40vh;
+	width: 35vw;
 	display: block;
 }
 	
@@ -114,11 +120,5 @@ p {
 	display: flex;
 	justify-content: center;
 	height: inherit;
-}
-	.waves {
-	content: url(images/sunset.gif);
-	height: 40vh;
-	width: 35vw;
-	display: block;
 }
 }
